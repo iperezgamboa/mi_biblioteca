@@ -8,8 +8,6 @@ class BooksController < ApplicationController
     @books = @q.result(distinct: true)  
   end
 
-  
-
   # GET /books/1
   # GET /books/1.json
   def show
